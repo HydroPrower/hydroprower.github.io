@@ -13,11 +13,6 @@ section.standalone
   margin-right: 150px;
 }
 
-div.line
- {
-   background-color: #333;
- }
-
 div.title
 {
   width: 1300px;
@@ -51,4 +46,40 @@ article
 article
 {
     display: block;
+}
+
+ul#menu
+{
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 11;
+  margin-left: 300;
+  list-style: none;
+}
+
+ul#menu li
+{
+    border-bottom: 5px solid #54BAE2;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; /* elementi su singola riga */
+}
+
+ul#menu li a
+{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+ul#menu li.active, ul#menu li:hover
+{
+    background-color: #54BAE2;
+    border-bottom: 5px solid #FF831C;
 }
