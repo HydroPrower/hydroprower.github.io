@@ -30,6 +30,7 @@ div.title
 
 article
 {
+  color: rgb(200,200,200);
   margin-top: 70px;
   margin-left: 150px;
   margin-right: 150px;
@@ -47,6 +48,7 @@ article
   font-family: 'Roboto Mono', sans-serif;
 }
 
-article {
+article
+{
     display: block;
 }
