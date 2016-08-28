@@ -8,6 +8,8 @@ body
 
 section.header
 {
+  margin-left: 190px;
+  margin-right: 150px;
 }
 
 section.standalone
@@ -19,7 +21,7 @@ section.standalone
 
 div.title
 {
-  width: 1300px;
+  width: 900px;
   padding: 10px;
   border: 3px;
   text-align: left;
