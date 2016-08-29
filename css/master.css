@@ -7,7 +7,7 @@ body
 
 section.header
 {
-  margin-left: 190px;
+  margin-left: 150px;
   margin-right: 300px;
   padding: 0px;
 }
@@ -15,8 +15,8 @@ section.header
 section.standalone
 {
   margin-top: 30px;
-  margin-left: 190px;
-  margin-right: 150px;
+  margin-left: 150px;
+  margin-right: 190px;
 }
 
 section.title
@@ -25,7 +25,7 @@ section.title
   width: 300px;
   padding-top: 15px;
   padding-bottom: 0px;
-  padding-left: 900px;
+  padding-left: 870px;
   text-align: right;
   border-left: 1700px;
   color: rgb(200, 200, 200);
