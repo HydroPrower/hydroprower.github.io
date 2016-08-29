@@ -5,53 +5,90 @@ body
   background-color: #1e1e1e;
 }
 
-section.header
+div.header
 {
   margin-left: 150px;
   margin-right: 300px;
   padding: 0px;
+  float: left;
 }
 
-section.standalone
+/*
+div.container
 {
   margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 0px;
   margin-right: 190px;
 }
+*/
 
-section.title
+div.title
 {
   height: 25px;
   width: 300px;
   padding-top: 15px;
   padding-bottom: 0px;
-  padding-left: 870px;
+  padding-left: 800px;
   text-align: right;
   border-left: 1700px;
   color: rgb(200, 200, 200);
   font-family: 'Lobster';
 }
 
-article
+div.container
 {
+  width: 970px;
   color: rgb(180,180,180);
   background-color: #222;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 20px;
+  padding-right: 10px;
   margin: 0 10px;
   -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   font-family: 'Roboto Mono', sans-serif;
+  float: right;
 }
 
-article
+div.container
 {
     display: block;
+}
+
+div.content
+{
+    margin:0 auto;
+    text-align:left;
+    font-size: 6;
+}
+
+div.shell_text_left
+{
+    margin-right: 320px;
+}
+
+div.shell {
+    width: 320px;
+    padding: 10px;
+    text-shadow: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: #171717;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-top: 20px solid rgb(200, 200, 200);
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    font-family: 'Roboto Mono', serif;
+    font-size: 11;
+    float: right;
 }
 
 ul#menu
@@ -65,8 +102,8 @@ ul#menu
 
 ul#menu li
 {
-    border-top: 5px solid #333;
-    border-radius: 5px;
+    background-color: rgb(40,40,40);
+    border-bottom: solid #333;
     display: block;
     width: 150px;
     height: 30px;
@@ -89,11 +126,11 @@ ul#menu li a
 ul#menu li.active_orange, ul#menu li.orange:hover
 {
     background-color: #222;
-    border-top: 5px solid #E97F15;
+    border-bottom: solid #E97F15;
 }
 
 ul#menu li.active_dark_orange, ul#menu li.dark_orange:hover
 {
     background-color: #222;
-    border-top: 5px solid #B55A00;
+    border-bottom: 5px solid #B55A00;
 }
